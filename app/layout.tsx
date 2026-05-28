@@ -14,8 +14,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {/* NAV BAR */}
-        <nav className="border-b p-4 flex gap-6 font-medium">
-          <Link href="/">Home</Link>
+        <nav className="border-b p-4 flex font-medium">
+          <Link href="/" style={{ marginRight: "3rem" }}>Home</Link>
+          <Link href="/experiments" style={{ marginRight: "3rem" }}>Experiments</Link>
           <Link href="/dashboard">Dashboard</Link>
         </nav>
 
